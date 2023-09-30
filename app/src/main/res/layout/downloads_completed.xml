@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2021. Mohammed Foysal vlogs Development Studios-->
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -49,7 +47,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <com.Foysaldev.videoDownloader.utils.CustomButton
+        <com.Life.videoDownloader.utils.CustomButton
             android:id="@+id/clearAllFinishedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +60,7 @@
             app:layout_constraintEnd_toStartOf="@id/goToFolder"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.Foysaldev.videoDownloader.utils.CustomButton
+        <com.Life.videoDownloader.utils.CustomButton
             android:id="@+id/goToFolder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

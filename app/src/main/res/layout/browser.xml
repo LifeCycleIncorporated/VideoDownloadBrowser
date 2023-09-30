@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2021. Mohammed Foysal vlogs Development Studios-->
-
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -24,7 +22,7 @@
         android:progressDrawable="@drawable/loading_page_progress_status"
         android:layout_centerInParent="true"/>
 
-    <com.Foysaldev.videoDownloader.browser.TouchableWebView
+    <com.Life.videoDownloader.browser.TouchableWebView
         android:id="@+id/page"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -93,7 +91,7 @@
         android:visibility="gone"
         android:background="@android:color/black">
 
-        <com.Foysaldev.videoDownloader.view.CustomVideoView
+        <com.Life.videoDownloader.view.CustomVideoView
             android:id="@+id/videoFoundView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -101,7 +99,7 @@
             app:uvv_autoRotation="true"
             app:uvv_fitXY="false" />
 
-        <com.Foysaldev.videoDownloader.view.CustomMediaController
+        <com.Life.videoDownloader.view.CustomMediaController
             android:id="@+id/mediaFoundController"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

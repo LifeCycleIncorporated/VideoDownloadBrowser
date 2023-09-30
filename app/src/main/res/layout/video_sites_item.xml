@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--Copyright (c) 2021. Mohammed Foysal vlogs Development Studios-->
-
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -28,7 +25,7 @@
             android:adjustViewBounds="true"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/favicon_facebook" />
-        <com.Foysaldev.videoDownloader.utils.CustomText
+        <com.Life.videoDownloader.utils.CustomText
             android:id="@+id/ivVideoSiteName"
             android:padding="@dimen/_4sdp"
             android:layout_width="match_parent"
