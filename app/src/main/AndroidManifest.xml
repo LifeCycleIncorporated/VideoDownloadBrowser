@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2021. Mohammed Foysal vlogs Development Studios-->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.Foysaldev.videoDownloader">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -11,7 +9,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name="com.Foysaldev.videoDownloader.VDApp"
+        android:name="com.Life.videoDownloader.VDApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,12 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name="com.Foysaldev.videoDownloader.activity.HistoryActivity"
-            android:parentActivityName="com.Foysaldev.videoDownloader.activity.MainActivity"
+        <activity android:name="com.Life.videoDownloader.activity.HistoryActivity"
+            android:parentActivityName="com.Life.videoDownloader.activity.MainActivity"
             />
-        <activity android:name="com.Foysaldev.videoDownloader.activity.GuideActivity" />
+        <activity android:name="com.Life.videoDownloader.activity.GuideActivity" />
         <activity
-            android:name="com.Foysaldev.videoDownloader.activity.SplashActivity"
+            android:name="com.Life.videoDownloader.activity.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -36,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.Foysaldev.videoDownloader.activity.MainActivity"
+            android:name="com.Life.videoDownloader.activity.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -60,7 +58,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name="com.Foysaldev.videoDownloader.download.DownloadManager"
+            android:name="com.Life.videoDownloader.download.DownloadManager"
             android:exported="false" />
 
         <meta-data
@@ -69,7 +67,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.Foysaldev.videoDownloader.fileprovider"
+            android:authorities="com.Life.videoDownloader.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

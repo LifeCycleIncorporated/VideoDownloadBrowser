@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2021. Mohammed Foysal vlogs Development Studios-->
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -50,7 +48,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/historySearchText"
+                    android:id="@+id/historySearchTexts"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@android:color/white"
@@ -100,8 +98,8 @@
             android:layout_width="@dimen/download_icon_dimen"
             android:layout_height="@dimen/download_icon_dimen"
             android:layout_gravity="center"
-            android:tint="@color/colorAccent"
-            android:src="@drawable/ic_no_history"/>
+            android:src="@drawable/ic_no_history"
+            app:tint="@color/colorAccent" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -147,7 +145,7 @@
                 android:layout_height="@dimen/icon_dimen"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_delete"
-                android:tint="@color/colorAccent" />
+                app:tint="@color/colorAccent" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
